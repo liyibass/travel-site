@@ -8,11 +8,12 @@
 
   &__text-content {
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
+    transform: translateY(-50%);
     width: 100%;
     text-align: center;
-    transform: translateY(50%);
+    padding-top: 60px;
   }
   &__title {
     font-weight: 300;
